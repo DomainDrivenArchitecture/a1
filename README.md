@@ -55,5 +55,6 @@ The namespace should be named `metered.usage`.
 
 Please respect function names as a test-suite will be ran on the
 
-### Asumptions for first implementation iteration
-1. uuids are used only once, there is no reuse
+### Comments
+1. I assume uuids are used only once, there is no reuse after object destroy
+2. For spec orchestration I like [orchestra "2021.01.01-1"] - maybe that's worth a view :-)

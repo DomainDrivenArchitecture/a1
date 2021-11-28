@@ -2,7 +2,6 @@
   (:require
    [clojure.test :refer :all]
    [data-test :refer :all]
-   [clojure.spec.alpha :as s]
    [clojure.spec.test.alpha :as stest]
    [metered.usage :as cut]))
 

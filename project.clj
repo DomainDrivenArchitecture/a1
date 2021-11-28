@@ -3,8 +3,7 @@
   :url "https://domaindrivenarchitecture.org"
   :license {:name "Apache License, Version 2.0"
             :url "https://www.apache.org/licenses/LICENSE-2.0.html"}
-  :dependencies [[org.clojure/clojure "1.10.3" :scope "provided"]
-                 [clj-time "0.13.0"]]
+  :dependencies [[org.clojure/clojure "1.10.3" :scope "provided"]]
   :target-path "target/%s/"
   :source-paths ["src/main/clj"]
   :resource-paths ["src/main/resources"]
