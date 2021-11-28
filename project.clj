@@ -12,6 +12,6 @@
                  ["releases" :clojars]]
   :deploy-repositories [["snapshots" :clojars]
                         ["releases" :clojars]]
-  :profiles {:test {:test-paths ["src/test/cljc"]
+  :profiles {:test {:test-paths ["src/test/clj"]
                     :resource-paths ["src/test/resources"]
                     :dependencies [[dda/data-test "0.1.1"]]}})

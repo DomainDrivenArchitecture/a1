@@ -54,3 +54,6 @@ additional dependencies beyond `[clj-time "0.13.0"]` if necessary.
 The namespace should be named `metered.usage`.
 
 Please respect function names as a test-suite will be ran on the
+
+### Asumptions for first implementation iteration
+1. uuids are used only once, there is no reuse
