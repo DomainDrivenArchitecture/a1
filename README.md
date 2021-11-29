@@ -56,5 +56,6 @@ The namespace should be named `metered.usage`.
 Please respect function names as a test-suite will be ran on the
 
 ### Comments
-1. I assume uuids are used only once, there is no reuse after object destroy
-2. For spec orchestration I like [orchestra "2021.01.01-1"] - maybe that's worth a view :-)
+1. I assume uuids are used only once, there is no reuse after object is destroed
+2. I've covered the case of resource creation & running at the billing time. The case for a second billing will not work till we enhance the input (e.g. event-stream by on additional type?).
+3. For spec orchestration I like [orchestra "2021.01.01-1"] - maybe that's worth a view :-)
